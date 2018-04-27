@@ -48,6 +48,30 @@ public class BinarySearch {
         return -1;
     }
 
+    // 完善二分算法
+    public static int binarySearch2 (int [] arrays, int key) {
+
+        int length = arrays.length;
+        int mid;
+        int start = 0;
+        int end = length - 1;
+
+        while (start <= end) {
+
+            mid = (end - start) / 2 + start;
+
+            if (key < arrays[mid]) {
+                end = mid - 1;
+            } else if (key > arrays[mid]) {
+                start = mid + 1;
+            } else {
+                return mid;
+            }
+        }
+
+        return -1;
+    }
+
     public static void main(String[] args) {
 
         int [] arrays = {3,5,11,17,21,23,28,30,32,50,64,78,81,95,100, 102};
