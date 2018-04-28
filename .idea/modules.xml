@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/binary-search/binary-search.iml" filepath="$PROJECT_DIR$/binary-search/binary-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binary-tree/binary-tree.iml" filepath="$PROJECT_DIR$/binary-tree/binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mahjong/mahjong.iml" filepath="$PROJECT_DIR$/mahjong/mahjong.iml" />
     </modules>
   </component>
 </project>
